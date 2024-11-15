@@ -1,8 +1,7 @@
 .item-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
 }
 
 .project-title {
@@ -37,12 +36,12 @@
     justify-content: space-evenly;
     text-align: center;
     display: flex;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .item img {
-    /* needs a border I think */
-    width: 15rem;
+    /* images need a border I think */
+    width: 20rem;
     height: 100%;
     object-fit: cover;
 }
