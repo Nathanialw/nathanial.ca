@@ -1,0 +1,48 @@
+.item-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-title {
+    color: var(--grey--700);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.icon-links {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.uri-links {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main-container {
+    justify-content: center;
+}
+
+.item {
+    width: 90%;
+    border-radius: var(--borderRadius);
+
+    background-color: var(--primary-100);
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.item img {
+    /* needs a border I think */
+    width: 15rem;
+    height: 100%;
+    object-fit: cover;
+}

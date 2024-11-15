@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/projects.css" />
   </head>
 
   <body>
     <header class="nav-center" id="nav-bar">
         <div class='navbar'>
-            <a href='/'><h4 class='logo'>logo</h4></a>
+            <a href='/'><h4 class='logo'><img src="assets/images/default.png" alt="I don't know wha the image should be"></h4></a>
             <button type='button' class='bars' id='bars'>
                 <i class='fa fa-bars'></i>
             </button>
@@ -25,8 +26,7 @@
         <nav>
             <ul class='nav-links' id='nav-links'>
                 <li><a href="/">Home</a></li> 
-                <li><a href="/discover">About Me</a></li> 
-                <li><a href="/blog">Find Blogs</a></li> 
+                <li><a href="/about">About Me</a></li> 
             </ul>
         </nav>
         <script src="./js/ui/nav.js"></script>
@@ -34,31 +34,61 @@
 
 
     <main class="main-container">
-      <h1
-        style="
-          padding: 7rem;
-          padding-bottom: 0;
-          font-size: 5rem;
-          text-align: center;
-          color: var(--primary-500);
-          text-shadow: 2px 0px black;
-        "
-      >Websites</h1>
+      <h1 class="title">Projects</h1>
+      <div class="title-underline"></div>
+      
+      <ul class="item-container">
+        <li class="item">
+          <div>
+            <h4 class="project-title" >Browser Roguelike Game</h4>
+            <h6 class="title-underline"></h6>
+            <a class="uri-links" href="https://www.onlineRPG.ca">www.onlineRPG.ca</a>
+            <a class="icon-links" href="https://github.com/Nathanialw/onlinerpg.ca"><i class='fab fa-github'></i></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia eligendi expedita tenetur numquam soluta, cum iste ea incidunt, aspernatur unde? Maiores culpa cupiditate architecto eos recusandae sapiente libero dolorem nihil pariatur, reprehenderit modi molestias fuga, ratione eveniet ad odit?</p>
+          </div>
+          <a class="uri-links" href="https://github.com/Nathanialw/onlinerpg.ca"><img class="img" src="assets/images/browser-RPG-prev.png" alt="game preview image"></a>
+        </li>
+        
+        <li class="item">
+          <a class="icon-links" href="https://github.com/Nathanialw/Draw_Colliders"><img class="img" src="assets/images/draw-colliders-prev.png" alt="program preview image"></a>
+          <div>
+            <h4 class="project-title">Box2d Collider Shapes</h4>
+            <h6 class="title-underline"></h6>
+            <a class="icon-links" href="../../downloads/Draw_Colliders/Draw_Colliders.7z" download><i class='fab fa-windows'></i></a>
+            <a class="icon-links" href="../../downloads/Draw_Colliders/Draw_Colliders.tar" download><i class='fab fa-linux'></i></a>
+            <a class="icon-links" href="https://github.com/Nathanialw/Draw_Colliders"><i class='fab fa-github'></i></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia eligendi expedita tenetur numquam soluta, cum iste ea incidunt, aspernatur unde? Maiores culpa cupiditate architecto eos recusandae sapiente libero dolorem nihil pariatur, reprehenderit modi molestias fuga, ratione eveniet ad odit?</p>
+          </div>
+        </li> 
 
-        <ul>
-            <li><a href="http://www.onlineRPG.ca">www.onlineRPG.ca</a></li>
-            <li><a href="http://www.readinglist.ca">www.readinglist.ca</a></li>
-            <li><a href="http://www.roguelike.ca">www.roguelike.ca</a></li>
-        </ul>        
+        <li class="item">
+          <div>
+            <h4 class="project-title">Reading list website</h4>
+            <h6 class="title-underline"></h6>
+            <a class="uri-links" href="https://www.readinglist.ca">www.readinglist.ca</a>
+            <a class="icon-links" href="https://github.com/Nathanialw/readinglist.ca"><i class='fab fa-github'></i></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia eligendi expedita tenetur numquam soluta, cum iste ea incidunt, aspernatur unde? Maiores culpa cupiditate architecto eos recusandae sapiente libero dolorem nihil pariatur, reprehenderit modi molestias fuga, ratione eveniet ad odit?</p>
+          </div>
+          <a class="icon-links" href="https://github.com/Nathanialw/readinglist.ca"><img class="img" src="assets/images/reading-list-prev.png" alt="website preview image"></a>
+        </li>
+
+        <li class="item">
+          <a class="icon-links" href="https://github.com/Nathanialw/RPG"><img class="img" src="assets/images/RPG-prev.png" alt="game preview image"></a>
+          <div>
+            <h4 class="project-title">Diablo like RPG - Demo</h4>
+            <h6 class="title-underline"></h6>
+            <a class="icon-links" href="../../downloads/RPG/RPG.7z" download><i class='fab fa-windows'></i></a>
+            <a class="icon-links" href="../../downloads/RPG/RPG.tar" download><i class='fab fa-linux'></i></a>
+            <a class="icon-links" href="https://github.com/Nathanialw/RPG"><i class='fab fa-github'></i></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia eligendi expedita tenetur numquam soluta, cum iste ea incidunt, aspernatur unde? Maiores culpa cupiditate architecto eos recusandae sapiente libero dolorem nihil pariatur, reprehenderit modi molestias fuga, ratione eveniet ad odit?</p>
+          </div>
+        </li>    
+      </ul>        
     </main>
 
     <footer id="footer">
         <div class='footer'>
             <ul class='social-icons'>
-                <li><a target='_blank' href='https://facebook.com'><i class='fab fa-facebook'></i></a></li>
-                <li><a target='_blank' href='https://twitter.com'><i class='fab fa-twitter'></i></a></li>
-                <li><a target='_blank' href='https://instagram.com'><i class='fab fa-instagram'></i></a></li>
-                <li><a target='_blank' href='https://youtube.com'><i class='fab fa-youtube'></i></a></li>
                 <li><a target='_blank' href='https://github.com/nathanialw'><i class='fab fa-github'></i></a></li>
             </ul>
         </div>
