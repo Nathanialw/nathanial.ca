@@ -341,8 +341,6 @@ ul {
   min-height: calc(100vh - 3.5rem - 125px);
 }
 
-/* random book chart */
-
 .title {
   padding-top: 3rem;
   letter-spacing: var(--letterSpacing);
